@@ -9,4 +9,23 @@ class Conta
         @saldo = saldo
     end
 
+    def sacar(valor)
+        if saldo >= valor
+            self.saldo -= valor
+        else
+            puts "Saldo insuficiente."
+        end
+    end
+
+    def depositar(valor)
+        self.saldo += valor
+    end
+    
+    def transferir(conta_destino, valor)
+        sacar(valor)
+        conta_destino.depositar(valor)
+        
+    end
+    
+    
 end
