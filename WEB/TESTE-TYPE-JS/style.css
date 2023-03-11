@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.banner-area h2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50, -50);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    color: aqua;
+    font-size: 8em;
+}
