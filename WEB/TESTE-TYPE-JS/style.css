@@ -17,3 +17,7 @@ body {
     color: aqua;
     font-size: 8em;
 }
+
+.banner-area h2 span {
+    color: black;
+}
