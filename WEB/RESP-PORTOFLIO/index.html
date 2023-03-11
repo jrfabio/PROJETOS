@@ -24,7 +24,7 @@
         <div class="home-content">
             <h3>Hello, it Me</h3>
             <h1>TheSilvaProf</h1>
-            <h3>And I'am a <span class="multiple-text"></span></h3>
+            <h3>And I'am a <span class="type"></span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sequi laborum et architecto sunt in dolorem laudantium, similique voluptatum fuga, aperiam culpa explicabo maxime quas inventore modi velit recusandae alias!</p>
             <div class="social-media">
                 <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
@@ -38,7 +38,19 @@
             <img src="home.jpg" alt="">
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="script.js"></script>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed(".type", {
+            strings: [
+                "Frontend Developer now",
+                "Not YouTuber",
+                "Not Blogger"
+            ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        })
+    </script>
 </body>
 </html>
